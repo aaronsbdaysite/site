@@ -1,5 +1,6 @@
 var size = 400
+  document.getElementById("bonsai").width = size;
 function grow(){
-    document.getElementById("bonsai").width = size;
-    size = size + 1
+     size = size + 1
+    document.getElementById("bonsai").width = size;  
 }
